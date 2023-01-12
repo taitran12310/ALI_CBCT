@@ -15,7 +15,9 @@ Juan Carlos Prieto
 We propose a novel approach that reformulates landmark detection as a classification problem through a virtual agent placed inside a 3D Cone-Beam Computed Tomography (CBCT) scan. This agent is trained to navigate in a multi-scale volumetric space to reach the estimated landmark position.
 
 Landmark placed in the CBCT:
-git: https://github.com/Maxlo24/ALI_CBCT.git
+- git: https://github.com/Maxlo24/ALI_CBCT.git
+- model: https://github.com/Maxlo24/ALI_CBCT/releases
+
 ![LM_SELECTION_Trans](https://user-images.githubusercontent.com/46842010/159336503-827d70d5-2212-4dea-8ccc-46fc420be2e2.png)
 
 
@@ -110,6 +112,12 @@ A contrast adjustment is also applied but can be turned off with
 ````
 ---
 
+
+**Predict**
+```
+python3 src/AGENT/predict_landmarks.py --dir_scans "resources/input" --dir_models "resources/models" -lm RCo RGo PogL LGo LCo LAF LAE RAF RAE LMCo RMCo RLCo RSig RPRa RARa LSig LARa LPRa
+```
+---
 
 
 
