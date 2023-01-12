@@ -2,3 +2,7 @@
 *.DS_Store
 *.pyc
 *venv*
+src/old
+resources/output
+.ipynb_checkpoints
+resources/models

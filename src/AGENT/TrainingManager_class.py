@@ -103,7 +103,7 @@ class TrainingMaster :
         train_env, val_env = train_test_split(self.environements, test_size=val_percentage, random_state=len(self.environements))
         self.s_env = {"train":train_env,"val":val_env}
         for key in self.s_env.keys():
-            print(key,"environments :")
+            
             lst = []
             for env in self.s_env[key]:
                 lst.append(env.patient_id)

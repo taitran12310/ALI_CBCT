@@ -1,0 +1,519 @@
+{
+    "@schema": "https://raw.githubusercontent.com/slicer/slicer/master/Modules/Loadable/Markups/Resources/Schema/markups-schema-v1.0.0.json#",
+    "markups": [
+        {
+            "type": "Fiducial",
+            "coordinateSystem": "LPS",
+            "locked": false,
+            "labelFormat": "%N-%d",
+            "controlPoints": [
+                {
+                    "id": "1",
+                    "label": "RCo",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        65.7999981244405,
+                        95.6499992231526,
+                        -78.9999962846438
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "2",
+                    "label": "RGo",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        76.04999853173891,
+                        100.79999942779523,
+                        -132.54999841252962
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "3",
+                    "label": "PogL",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        114.90000007549922,
+                        53.649997554222566,
+                        -152.99999922513962
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "4",
+                    "label": "LGo",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        146.3000013232231,
+                        120.30000020265561,
+                        -80.49999634424844
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "5",
+                    "label": "LCo",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        160.9500019053618,
+                        96.44999925494176,
+                        -75.4999961455663
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "6",
+                    "label": "LAF",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        161.1500019133091,
+                        96.44999925494176,
+                        -71.89999600251515
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "7",
+                    "label": "LAE",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        160.00000186761218,
+                        87.09999888340613,
+                        -77.3999962210655
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "8",
+                    "label": "RAF",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        80.8999987244606,
+                        97.74999930659911,
+                        -67.39999582370122
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "9",
+                    "label": "RAE",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        68.89999824762344,
+                        86.9999988794325,
+                        -81.29999637603758
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "10",
+                    "label": "LMCo",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        153.25000159939128,
+                        97.64999930262547,
+                        -79.24999629457791
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "11",
+                    "label": "RMCo",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        75.24999849994977,
+                        96.54999925891539,
+                        -82.19999641180037
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "12",
+                    "label": "RLCo",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        59.84999788800875,
+                        94.84999919136348,
+                        -83.94999648133913
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "13",
+                    "label": "RSig",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        68.7999982436498,
+                        83.64999874631545,
+                        -91.39999677737553
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "14",
+                    "label": "RPRa",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        71.79999836285909,
+                        97.99999931653323,
+                        -101.84999719262122
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "15",
+                    "label": "RARa",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        77.14999857544899,
+                        73.0499983251093,
+                        -114.34999768932659
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "16",
+                    "label": "LSig",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        162.3500019609928,
+                        83.34999873439452,
+                        -86.94999660054842
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "17",
+                    "label": "LARa",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        152.85000158349675,
+                        72.39999829928063,
+                        -111.64999758203822
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                },
+                {
+                    "id": "18",
+                    "label": "LPRa",
+                    "description": "",
+                    "associatedNodeID": "",
+                    "position": [
+                        159.1000018318494,
+                        99.24999936620375,
+                        -99.44999709725379
+                    ],
+                    "orientation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": true,
+                    "visibility": true,
+                    "positionStatus": "preview"
+                }
+            ],
+            "measurements": [],
+            "display": {
+                "visibility": false,
+                "opacity": 1.0,
+                "color": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "selectedColor": [
+                    0.26666666666666666,
+                    0.6745098039215687,
+                    0.39215686274509803
+                ],
+                "propertiesLabelVisibility": false,
+                "pointLabelsVisibility": true,
+                "textScale": 2.0,
+                "glyphType": "Sphere3D",
+                "glyphScale": 2.0,
+                "glyphSize": 5.0,
+                "useGlyphScale": true,
+                "sliceProjection": false,
+                "sliceProjectionUseFiducialColor": true,
+                "sliceProjectionOutlinedBehindSlicePlane": false,
+                "sliceProjectionColor": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "sliceProjectionOpacity": 0.6,
+                "lineThickness": 0.2,
+                "lineColorFadingStart": 1.0,
+                "lineColorFadingEnd": 10.0,
+                "lineColorFadingSaturation": 1.0,
+                "lineColorFadingHueOffset": 0.0,
+                "handlesInteractive": false,
+                "snapMode": "toVisibleSurface"
+            }
+        }
+    ]
+}
