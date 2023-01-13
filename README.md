@@ -115,7 +115,7 @@ A contrast adjustment is also applied but can be turned off with
 
 **Predict**
 ```
-python3 src/AGENT/predict_landmarks.py --dir_scans "resources/input" --dir_models "resources/models" -lm RCo RGo PogL LGo LCo LAF LAE RAF RAE LMCo RMCo RLCo RSig RPRa RARa LSig LARa LPRa
+python3 src/AGENT/predict_landmarks.py --dir_scans "resources/input/images" --dir_models "resources/models" -lm RCo RGo PogL LGo LCo LAF LAE RAF RAE LMCo RMCo RLCo RSig RPRa RARa LSig LARa LPRa
 ```
 ---
 
