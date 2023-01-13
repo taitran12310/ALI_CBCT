@@ -47,7 +47,8 @@ for group,labels in GROUP_LABELS.items():
 
 # print(len(LABELS))
 
-SCALE_KEYS = ['1','0-3']
+# SCALE_KEYS = ['1','0-3']
+SCALE_KEYS = ['0-3']
 
 
 MOVEMENT_MATRIX_6 = np.array([

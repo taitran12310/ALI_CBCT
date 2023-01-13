@@ -89,11 +89,7 @@ def main(args):
             verbose=True
             ))
 
-    print()
-
     training_scales = [GV.SCALE_KEYS[scale] for scale in args.training_scales]
-
-    print('Training on scales : ',training_scales)
 
     Master = TrainingMaster(
         environement_lst= environement_lst,
@@ -139,8 +135,8 @@ if __name__ ==  '__main__':
 
     #Environment
     input_group.add_argument('-lm','--landmark_group',nargs="+",type=str,help="Prepare the data for uper and/or lower landmark training (ex: U L CB CI)", default=["CI"])
-    input_group.add_argument('-sp', '--scale_spacing', nargs="+", type=float, help='Spacing of the different scales', default=[0.3,0.08])
-    input_group.add_argument('-ts', '--training_scales', nargs="+", type=float, help='Scale to train', default=[0,1])
+    input_group.add_argument('-sp', '--scale_spacing', nargs="+", type=float, help='Spacing of the different scales', default=[0.3])
+    input_group.add_argument('-ts', '--training_scales', nargs="+", type=float, help='Scale to train', default=[0])
 
 
     #Agent
