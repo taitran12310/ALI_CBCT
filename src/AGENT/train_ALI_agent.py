@@ -128,10 +128,10 @@ if __name__ ==  '__main__':
     parser = argparse.ArgumentParser(description='Training for Automatic Landmarks Identification', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     
     input_group = parser.add_argument_group('dir')
-    input_group.add_argument('--dir_project', type=str, help='Directory with all the project',default='./', required=False)
-    input_group.add_argument('--dir_data', type=str, help='Input directory with 3D images', default=parser.parse_args().dir_project+'resources/input/images')
-    input_group.add_argument('--dir_scans', type=str, help='Input directory with the scans',default=parser.parse_args().dir_project+'resources/input/patients')
-    input_group.add_argument('--dir_model', type=str, help='Output directory of the training',default= parser.parse_args().dir_project+'resources/output'+'/ALI_models_'+datetime.datetime.now().strftime("%Y_%d_%m"))
+    input_group.add_argument('--dir_project', type=str, help='Directory with all the project',default='./')
+    input_group.add_argument('--dir_data', type=str, help='Input directory with 3D images', default='/app/data/images')
+    input_group.add_argument('--dir_scans', type=str, help='Input directory with the scans',default='/app/data/patients')
+    input_group.add_argument('--dir_model', type=str, help='Output directory of the training',default='/app/data/outputs/ALI_models_'+datetime.datetime.now().strftime("%Y_%d_%m"))
 
     #Environment
     input_group.add_argument('-lm','--landmark_group',nargs="+",type=str,help="Prepare the data for uper and/or lower landmark training (ex: U L CB CI)", default=["CI"])
